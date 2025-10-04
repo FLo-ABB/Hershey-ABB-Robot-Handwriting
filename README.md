@@ -24,9 +24,8 @@ This project demonstrates how to use ABB industrial robots for handwriting appli
 ├── HandWriting.rspag          # ABB RobotStudio simulation project
 ├── hersheyCursiveModule.mod   # Generated RAPID module with character procedures
 ├── hersheyToRapid.py         # Python script to generate RAPID code
-├── imgvideo/                  # Demo images and videos
-│   ├── Capture.PNG           # Sample handwriting output
-│   └── 2025-10-04 21-33-08.mp4  # Video demonstration
+├── img/                       # Demo images and videos
+│   └── Capture.PNG           # Sample handwriting output
 ├── requirements.txt          # Python dependencies
 ├── LICENSE                   # MIT License
 └── README.md                 # This file
