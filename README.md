@@ -6,7 +6,7 @@ Simulation and source code demonstrating a robot writing in cursive using Hershe
 
 This project demonstrates how to use ABB industrial robots for handwriting applications by converting vector font data from the Hershey font collection into robot movement commands. The system generates cursive handwriting by translating character stroke data into precise robot trajectories.
 
-![Robot Handwriting Sample](imgvideo/Capture.PNG)
+![Robot Handwriting Sample](img/Capture.PNG)
 
 
 ## Features
