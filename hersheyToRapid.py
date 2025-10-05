@@ -15,12 +15,10 @@ def write_character_procedure(f, char, proc_name, font):
     f.write("    VAR robtarget pTarget;\n")
     f.write("    pTarget := refTarget;\n")
 
-    # Compute width from stroke data
-    all_x = [p[0] for s in strokes for p in s]
-    if all_x:
-        min_x = min(all_x)
-        max_x = max(all_x)
-        width = max_x - min_x if max_x > min_x else 1.0
+    # Get the proper character width from the glyph
+    glyphs = list(font.glyphs_for_text(char))
+    if glyphs:
+        width = glyphs[0].char_width
     else:
         width = 1.0
 

@@ -288,7 +288,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 13;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 8;
 ENDPROC
   ! Character: g
   PROC char_g()
@@ -506,7 +506,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 7;
 ENDPROC
   ! Character: k
   PROC char_k()
@@ -863,7 +863,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
 ENDPROC
   ! Character: q
   PROC char_q()
@@ -1392,7 +1392,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: B
   PROC char_upperB()
@@ -1482,7 +1482,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
 ENDPROC
   ! Character: C
   PROC char_upperC()
@@ -1537,7 +1537,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: D
   PROC char_upperD()
@@ -1614,7 +1614,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 22;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
 ENDPROC
   ! Character: E
   PROC char_upperE()
@@ -1677,7 +1677,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: F
   PROC char_upperF()
@@ -1807,7 +1807,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
 ENDPROC
   ! Character: H
   PROC char_upperH()
@@ -1891,7 +1891,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: I
   PROC char_upperI()
@@ -1948,7 +1948,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 13;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 17;
 ENDPROC
   ! Character: J
   PROC char_upperJ()
@@ -2005,7 +2005,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 12;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
 ENDPROC
   ! Character: K
   PROC char_upperK()
@@ -2092,7 +2092,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: L
   PROC char_upperL()
@@ -2157,7 +2157,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
 ENDPROC
   ! Character: M
   PROC char_upperM()
@@ -2256,7 +2256,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 31;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 33;
 ENDPROC
   ! Character: N
   PROC char_upperN()
@@ -2328,7 +2328,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 22;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: O
   PROC char_upperO()
@@ -2393,7 +2393,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 17;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 21;
 ENDPROC
   ! Character: P
   PROC char_upperP()
@@ -2462,7 +2462,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 21;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 25;
 ENDPROC
   ! Character: Q
   PROC char_upperQ()
@@ -2533,7 +2533,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 22;
 ENDPROC
   ! Character: R
   PROC char_upperR()
@@ -2616,7 +2616,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 25;
 ENDPROC
   ! Character: S
   PROC char_upperS()
@@ -2679,7 +2679,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 17;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: T
   PROC char_upperT()
@@ -2737,7 +2737,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
 ENDPROC
   ! Character: U
   PROC char_upperU()
@@ -2811,7 +2811,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 22;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: V
   PROC char_upperV()
@@ -2882,7 +2882,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
 ENDPROC
   ! Character: W
   PROC char_upperW()
@@ -3022,7 +3022,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 22;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: Y
   PROC char_upperY()
@@ -3106,7 +3106,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 19;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 23;
 ENDPROC
   ! Character: Z
   PROC char_upperZ()
@@ -3193,7 +3193,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 16;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 21;
 ENDPROC
   ! Character: 0
   PROC char_0()
@@ -3236,7 +3236,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 1
   PROC char_1()
@@ -3253,7 +3253,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 5;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 2
   PROC char_2()
@@ -3290,7 +3290,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 3
   PROC char_3()
@@ -3329,7 +3329,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 4
   PROC char_4()
@@ -3351,7 +3351,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 5
   PROC char_5()
@@ -3394,7 +3394,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 6
   PROC char_6()
@@ -3449,7 +3449,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 13;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 7
   PROC char_7()
@@ -3469,7 +3469,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 8
   PROC char_8()
@@ -3536,7 +3536,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: 9
   PROC char_9()
@@ -3591,7 +3591,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 13;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: !
   PROC char_exclamation()
@@ -3617,7 +3617,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 2;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 10;
 ENDPROC
   ! Character: @
   PROC char_at()
@@ -3739,7 +3739,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 21;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 27;
 ENDPROC
   ! Character: #
   PROC char_hash()
@@ -3773,7 +3773,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 15;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 21;
 ENDPROC
   ! Character: $
   PROC char_dollar()
@@ -3836,7 +3836,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
 ENDPROC
   ! Character: %
   PROC char_percent()
@@ -3909,7 +3909,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: ^
   PROC char_caret()
@@ -4006,7 +4006,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 20;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 26;
 ENDPROC
   ! Character: *
   PROC char_asterisk()
@@ -4033,7 +4033,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 10;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 16;
 ENDPROC
   ! Character: (
   PROC char_leftparenthesis()
@@ -4062,7 +4062,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 7;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
 ENDPROC
   ! Character: )
   PROC char_rightparenthesis()
@@ -4091,7 +4091,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 7;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
 ENDPROC
   ! Character: +
   PROC char_plus()
@@ -4111,7 +4111,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 26;
 ENDPROC
   ! Character: =
   PROC char_equals()
@@ -4131,7 +4131,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 26;
 ENDPROC
   ! Character: [
   PROC char_leftbracket()
@@ -4165,7 +4165,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 7;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
 ENDPROC
   ! Character: ]
   PROC char_rightbracket()
@@ -4199,7 +4199,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 7;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
 ENDPROC
   ! Character: {
   PROC char_leftbrace()
@@ -4288,7 +4288,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 5;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
 ENDPROC
   ! Character: }
   PROC char_rightbrace()
@@ -4377,7 +4377,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 5;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 14;
 ENDPROC
   ! Character: |
   PROC char_pipe()
@@ -4390,7 +4390,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 1.0;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 8;
 ENDPROC
   ! Character: <
   PROC char_lessthan()
@@ -4405,7 +4405,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 16;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: >
   PROC char_greaterthan()
@@ -4420,7 +4420,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 16;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: ?
   PROC char_question()
@@ -4470,7 +4470,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 12;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
 ENDPROC
   ! Character: _
   PROC char_underscore()
@@ -4496,7 +4496,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 26;
 ENDPROC
   ! Character: ~
   PROC char_tilde()
@@ -4552,7 +4552,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 18;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 24;
 ENDPROC
   ! Character: .
   PROC char_period()
@@ -4571,7 +4571,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 2;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 8;
 ENDPROC
   ! Character: ,
   PROC char_comma()
@@ -4594,7 +4594,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 2;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 8;
 ENDPROC
   ! Character: ;
   PROC char_semicolon()
@@ -4630,7 +4630,7 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 2;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 8;
 ENDPROC
   ! Character: :
   PROC char_colon()
@@ -4662,6 +4662,6 @@ ENDPROC
     MoveL pTarget,vSpeed,fine,tTool\WObj:=wWobj;
     Reset do_pen;
     MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\WObj:=wWobj;
-    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 2;
+    wWobj.oframe.trans.x := wWobj.oframe.trans.x + 8;
 ENDPROC
 ENDMODULE
