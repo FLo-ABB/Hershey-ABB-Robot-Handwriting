@@ -1,4 +1,4 @@
-# Hershey-ABBRobot-Handwriting
+# Hershey-ABB-Robot-Handwriting
 
 Simulation and source code demonstrating a robot writing in cursive using Hershey vector fonts. This project converts Hershey vector font data into ABB RAPID robot programming language code, enabling industrial robots to perform handwriting tasks.
 
@@ -47,8 +47,8 @@ This project demonstrates how to use ABB industrial robots for handwriting appli
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/FLo-ABB/Hershey-ABBRobot-Handwriting.git
-   cd Hershey-ABBRobot-Handwriting
+   git clone https://github.com/FLo-ABB/Hershey-ABB-Robot-Handwriting.git
+   cd Hershey-ABB-Robot-Handwriting
    ```
 
 2. **Install Python dependencies**:
