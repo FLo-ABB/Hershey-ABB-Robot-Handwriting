@@ -17,6 +17,7 @@ This project demonstrates how to use ABB industrial robots for handwriting appli
 - **📏 Character Spacing**: Automatically calculates and applies proper character spacing
 - **🔤 Complete Character Set**: Supports uppercase, lowercase, numbers, and special characters
 - **🎮 RobotStudio Simulation**: Includes a complete simulation setup for testing
+- **📐 Scalable**: Optional `nScale` parameter lets you resize characters (default = 1)
 
 ## 📁 Project Structure
 
