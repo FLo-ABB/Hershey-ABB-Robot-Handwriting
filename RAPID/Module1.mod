@@ -1,6 +1,6 @@
 MODULE Module1
     PERS tooldata tTool:=[TRUE,[[110,0,140],[0.707106781,0,0.707106781,0]],[1,[10.7435139,0,140],[1,0,0,0],0,0,0]];
-    PERS wobjdata wWobj:=[FALSE,TRUE,"",[[526.92,-115.652,257.517],[0.695575,0.127182,0.127182,0.695575]],[[769,100,1],[1,0,0,0]]];
+    PERS wobjdata wWobj:=[FALSE,TRUE,"",[[526.92,-115.652,257.517],[0.695575,0.127182,0.127182,0.695575]],[[63,150,1],[1,0,0,0]]];
     VAR speeddata vSpeed:=[300,3000,100,3000];
     PERS tooldata Pen_TCP:=[TRUE,[[110,0,140],[0.707106781,0,0.707106781,0]],[1,[10.7435139,0,140],[1,0,0,0],0,0,0]];
     CONST robtarget refTarget:=[[-61.41097207,14.187566617,-0.240748359],[0.098541688,-0.538960856,-0.836538911,-0.00365808],[-1,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
@@ -210,7 +210,8 @@ MODULE Module1
             CASE ":":
                 char_colon\nScaleParam:=nScale;
             CASE " ":
-                ! Space - move right without drawing wWobj.oframe.trans.x:=wWobj.oframe.trans.x+15*nScale;
+                ! Space - move right without drawing 
+                wWobj.oframe.trans.x:=wWobj.oframe.trans.x+15*nScale;
             DEFAULT:
                 TPWrite "Character not supported: "+sChar;
             ENDTEST
