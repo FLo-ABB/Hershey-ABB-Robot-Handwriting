@@ -10,10 +10,14 @@ def write_character_procedure(f, char, proc_name, font):
     if not strokes:
         return
 
-    f.write(f"  ! Character: {char}\n")
-    f.write(f"  PROC {proc_name}()\n")
-    f.write("    VAR robtarget pTarget;\n")
-    f.write("    pTarget := refTarget;\n")
+    f.write(f"    ! Character: {char}\n")
+    f.write(f"    PROC {proc_name}(\\num nScaleParam)\n")
+    f.write("        VAR robtarget pTarget;\n")
+    f.write("        VAR num nScale:=1;\n")
+    f.write("        pTarget:=refTarget;\n")
+    f.write("        IF Present(nScaleParam) THEN\n")
+    f.write("            nScale:=nScaleParam;\n")
+    f.write("        ENDIF\n")
 
     # Get the proper character width from the glyph
     glyphs = list(font.glyphs_for_text(char))
@@ -27,24 +31,24 @@ def write_character_procedure(f, char, proc_name, font):
             if i == 0:
                 x, y = p[0], p[1]
                 y_flipped = HEIGHT - y
-                f.write(f"    pTarget.trans := [{x},{y_flipped},0];\n")
-                f.write("    MoveL pTarget,vSpeed,fine,tTool\\WObj:=wWobj;\n")
-                f.write("    Set do_pen;\n")
+                f.write(f"        pTarget.trans:=[{x}*nScale,{y_flipped}*nScale,0];\n")
+                f.write("        MoveL pTarget,vSpeed,fine,tTool\\WObj:=wWobj;\n")
+                f.write("        Set do_pen;\n")
             elif i == len(s) - 1:
                 x, y = p[0], p[1]
                 y_flipped = HEIGHT - y
-                f.write(f"    pTarget.trans := [{x},{y_flipped},0];\n")
-                f.write("    MoveL pTarget,vSpeed,fine,tTool\\WObj:=wWobj;\n")
-                f.write("    Reset do_pen;\n")
-                f.write("    MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\\WObj:=wWobj;\n")
+                f.write(f"        pTarget.trans:=[{x}*nScale,{y_flipped}*nScale,0];\n")
+                f.write("        MoveL pTarget,vSpeed,fine,tTool\\WObj:=wWobj;\n")
+                f.write("        Reset do_pen;\n")
+                f.write("        MoveL RelTool(pTarget,0,0,-2),vSpeed,z0,tTool\\WObj:=wWobj;\n")
             else:
                 x, y = p[0], p[1]
                 y_flipped = HEIGHT - y
-                f.write(f"    pTarget.trans := [{x},{y_flipped},0];\n")
-                f.write("    MoveL pTarget,vSpeed,z0,tTool\\WObj:=wWobj;\n")
+                f.write(f"        pTarget.trans:=[{x}*nScale,{y_flipped}*nScale,0];\n")
+                f.write("        MoveL pTarget,vSpeed,z0,tTool\\WObj:=wWobj;\n")
 
-    f.write(f"    wWobj.oframe.trans.x := wWobj.oframe.trans.x + {width};\n")
-    f.write("ENDPROC\n")
+    f.write(f"        wWobj.oframe.trans.x:=wWobj.oframe.trans.x+{width}*nScale;\n")
+    f.write("    ENDPROC\n\n")
 
 
 def hersheyToRapid() -> None:
